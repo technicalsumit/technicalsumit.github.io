@@ -1,0 +1,248 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(pic1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.log{
+    padding-left: 60px;
+    padding-top: 20px;
+    float: left;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 60px;
+
+}
+
+.main-nav
+{
+   float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.main-nav li
+{
+    display: inline-block;
+}
+
+.main-nav li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;    
+}
+
+.main-nav li.active a
+{
+    border: 1px solid white;
+}
+
+.main-nav li a:hover
+{
+    border: 1px solid white;
+}
+
+/*.logo img*/
+/*{*/
+    /*width: 200px;*/
+    /*height: auto;*/
+    /*float: left;*/
+/*}*/
+
+body
+{
+    font-family: monospace; 
+}
+
+.row
+{
+    max-width: 1500px;
+    margin: auto;
+}
+
+.hero
+{
+    position: absolute;
+    width:  1000px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.hero1{
+    position: absolute;
+    width:  1000px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+h1
+{
+    color: white;
+    text-transform: uppercase;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 250px;
+}
+h2{
+     color: green;
+    text-transform: uppercase;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 250px;
+}
+
+.backImg{
+    width: 100%;
+    height: 100vh;
+    /*background-color: red;*/
+    background-image: url('photo.jpg');
+    background-image: repeat-y;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.backImg1{
+    width: 100%;
+    height: 100vh;
+    /*background-color: red;*/
+    background-image: url('photo1.jpg');
+    background-image: repeat-y;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+#resp{
+    position: relative;
+    width:  1000px;
+    padding: : 10px;
+    margin-left: 0px;
+    margin-top: 0px;
+    font-family: "Roboto", sans-serif;
+    color: red;
+
+
+}
+
+.adjust {
+    width: 20px;
+    padding-left: 30px;
+}
+.adjust1{
+    padding-left: 10px;
+
+}
+
+.button
+{
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.button1{
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.btn
+{
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+#drive{
+     border: 2.5px solid green;
+    padding: 10px 30px;
+    color: red;
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 18px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.btn-one
+{
+    font-family: "Roboto", sans-serif;
+}
+
+.btn-one:hover
+{
+  background-color: darkorange; 
+transition: all 0.5s ease-in;    
+}
+
+.btn-two
+{
+    font-family: "Roboto", sans-serif;
+}
+
+.btn-two:hover
+{
+    background-color: darkorange;
+    transition: all 0.5s ease-in;
+}
+.btn-three
+{
+    font-family: "Roboto", sans-serif;
+}
+.btn-three:hover
+{
+   background-color: darkorange;
+    transition: all 0.5s ease-in; 
+}
+.btn-four
+{
+    font-family: "Roboto", sans-serif;
+}
+.btn-four:hover
+{
+   background-color: darkorange;
+    transition: all 0.5s ease-in; 
+}
+.btn-five
+{
+    font-family: "Roboto", sans-serif;
+}
+.btn-five:hover
+{
+   background-color: darkorange;
+    transition: all 0.5s ease-in; 
+}
+
+.button1{
+     margin-top: 30px;
+    margin-left: 100px;
+
+}
+.btn-six
+{
+    font-family: "Roboto", sans-serif;
+}
+.btn-six:hover
+{
+   background-color: darkorange;
+    transition: all 0.5s ease-in; 
+
+}
+
+
+
+
+
+
+
+
+
+
